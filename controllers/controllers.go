@@ -9,14 +9,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	"github.com/leonardo-anjos/my-shopping-cart/database"
+	"github.com/leonardo-anjos/my-shopping-cart/models"
+	generate "github.com/leonardo-anjos/my-shopping-cart/tokens"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"golang.org/x/crypto/bcrypt"
-
-	"github.com/leonardo-anjos/my-shopping-cart/database"
-	"github.com/leonardo-anjos/my-shopping-cart/models"
-	generate "github.com/leonardo-anjos/my-shopping-cart/tokens"
 )
 
 var UserCollection *mongo.Collection = database.UserData(database.Client, "Users")

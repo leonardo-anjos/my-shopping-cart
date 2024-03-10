@@ -4,7 +4,6 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-
 	token "github.com/leonardo-anjos/my-shopping-cart/tokens"
 )
 

@@ -5,7 +5,6 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-
 	"github.com/leonardo-anjos/my-shopping-cart/controllers"
 	"github.com/leonardo-anjos/my-shopping-cart/database"
 	"github.com/leonardo-anjos/my-shopping-cart/middleware"

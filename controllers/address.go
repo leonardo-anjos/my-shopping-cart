@@ -7,11 +7,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/leonardo-anjos/my-shopping-cart/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
-
-	"github.com/leonardo-anjos/my-shopping-cart/models"
 )
 
 func AddAddress() gin.HandlerFunc {
